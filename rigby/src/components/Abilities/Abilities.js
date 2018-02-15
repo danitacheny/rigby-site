@@ -17,19 +17,19 @@ class Abilities extends React.Component {
     if (this.state.display) {
       return (
         <div>
-          <ul>
-            <li>Screams</li>
-            <li>Words
-              <ul>
-                <li>Bird</li>
-                <li>Rigby</li>
-                <li>Can you step up?</li>
-                <li>Rigbird</li>
-                <li>Whatchu?</li>
+          <ul className="ability-list">
+            <li className="ability-list__item">Screams</li>
+            <li className="ability-list__item">Words
+              <ul className="ability-list">
+                <li className="ability-list__item">Bird</li>
+                <li className="ability-list__item">Rigby!</li>
+                <li className="ability-list__item">Can you step up?</li>
+                <li className="ability-list__item">Rigbird</li>
+                <li className="ability-list__item">Whatchu?</li>
               </ul>
             </li>
-            <li></li>
-            <li></li>
+            <li className="ability-list__item"></li>
+            <li className="ability-list__item"></li>
           </ul>
         </div>
       )

@@ -1,0 +1,13 @@
+.navlink__active {
+  color: red;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+.navbar__item {
+  margin: 10px 30px;
+}
